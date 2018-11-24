@@ -282,6 +282,9 @@ input[type=submit] {
     text-align: center;
     background-color: #4aaaa5;
     color: #fff;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px
   }
   
     #about{
@@ -303,7 +306,7 @@ input[type=submit] {
     
     #contact{
       background-color: #fff;
-      margin-right: 30%;  
+      padding-right: 33%;  
       width: auto;    
   }
 
@@ -336,6 +339,20 @@ input[type=submit] {
     margin-top: 20px;
     padding-bottom: 20px;
     word-break: keep-all;
+}
+
+#about-text{
+  width: auto;
+  height: auto;
+  margin-right: 20px;
+  margin-left:10px;
+  padding-bottom: 20px;
+  word-break: keep-all;
+  margin-bottom: 20px;
+}
+
+img{
+  width:100%;
 }
 
 }
