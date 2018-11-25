@@ -260,8 +260,8 @@ input[type=submit] {
   clear: both;
 }
 
-/* Tablet Configuration */
-@media screen and (max-width: 768px) {
+/* Smaller Screen Configuration */
+@media screen and (max-width: 980px) {
 
   header{
     height:100px;
@@ -284,6 +284,7 @@ input[type=submit] {
     text-align: center;
     background-color: #4aaaa5;
     color: #fff;
+    margin-left:20px;
     padding-bottom: 0px;
     padding-left: 10px;
     padding-right: 10px
@@ -310,7 +311,156 @@ input[type=submit] {
     #contact{
       margin-top: 25px;
       background-color: #fff;
-      width: auto;    
+      width: auto;   
+      margin-right: 20px; 
+  }
+
+  .container {
+		margin-top: 50px;
+	  width: auto;
+    margin-left: 20px;
+    margin-right: 120px;
+    height: auto;
+    background-color: white;
+  }
+
+  #about-me  {
+    width: auto;
+    background: white;
+    border-bottom-style: solid;
+    border-width: 3px;
+    border-color: #cccccc;
+    color: teal;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+  }
+
+  #contact-box{
+    width: auto;
+    height: auto;
+    margin-right: 20px;
+    margin-left:10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    word-break: keep-all;
+}
+
+#about-text{
+  width: auto;
+  height: auto;
+  margin-right: 20px;
+  margin-left:10px;
+  padding-bottom: 20px;
+  word-break: keep-all;
+  margin-bottom: 20px;
+}
+
+#portfolio-box{
+  width: auto;
+  height: auto;
+  margin-right: 20px;
+  margin-left:10px;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  word-break: keep-all;
+}
+
+#row-1{
+  width: auto;
+  height: auto;
+  margin-left: 10px;
+
+}
+
+#row-2{
+  width: auto;
+  height: auto;
+  margin-left: 10px;
+
+}
+
+#row-3{
+  width: auto;
+  height: auto;
+  margin-left: 10px;
+
+}
+
+.box {
+  width: 32%;
+  height: 200px;
+  border: 1px solid black;
+  float: left;
+}
+
+.rectangle{
+  width: 100%;
+  height:40px;
+  line-height: 40px;
+  background:#4aaaa5;
+  color: #fff;
+  text-align: center;
+  margin-top: 60%;
+  
+}
+
+}
+
+/* Tablet Configuration */
+@media screen and (max-width: 768px) {
+
+  header{
+    height:100px;
+    background-color: #fff;
+ 
+  
+  }
+
+  #top-box{
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #name{
+    width:auto;
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #4aaaa5;
+    color: #fff;
+    margin-left:10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px
+  }
+  
+    #about{
+      margin-top: 25px;
+      background-color: #fff;
+      border-right-width: 1px;
+      border-color: black;
+      border-right-style: solid;
+  
+  }
+  
+    #portfolio {
+      margin-top: 25px;
+      background-color: #fff;
+      border-right-width: 1px;
+      border-color: black;
+      border-right-style: solid;
+  
+    }
+    
+    #contact{
+      margin-top: 25px;
+      background-color: #fff;
+      width: auto;  
+      margin-right: 10px;   
   }
 
   .container {
@@ -365,6 +515,7 @@ img{
   margin-left:10px;
   margin-top: 20px;
   padding-bottom: 20px;
+  margin-bottom: 20px;
   word-break: keep-all;
 }
 
@@ -390,14 +541,14 @@ img{
 }
 
 .box {
-  width: 200px;
+  width: 32%;
   height: 200px;
   border: 1px solid black;
   float: left;
 }
 
 .rectangle{
-  width: 200px;
+  width: 100%;
   height:40px;
   line-height: 40px;
   background:#4aaaa5;
@@ -435,7 +586,8 @@ img{
     color: #fff;
     padding-bottom: 0px;
     padding-left: 0px;
-    padding-right: 0px
+    padding-right: 0px;
+    margin-left:0px;
   }
   
     #about{
@@ -517,6 +669,7 @@ img{
   margin-right: 0px;
   margin-left:0px;
   margin-top: 20px;
+  margin-bottom:20px;
   padding-bottom: 20px;
   word-break: keep-all;
 }
@@ -539,6 +692,7 @@ img{
   width: auto;
   height: auto;
   margin-left: 0px;
+  margin-bottom:10px;
 
 }
 
